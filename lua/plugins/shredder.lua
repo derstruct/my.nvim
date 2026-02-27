@@ -1,5 +1,5 @@
 return {
-	dir = vim.fn.expand("~/Projects/shredder.nvim"),
+	"derstruct/shredder.nvim",
 	lazy = false,
 	config = function()
 		local s = require("shredder")
