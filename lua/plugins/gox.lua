@@ -7,7 +7,7 @@ return {
 			},
 			treesitter = {
 				start_go = true,
-				fold = true,
+				fold = false,
 			},
 		})
 	end,

@@ -1,15 +1,6 @@
 return {
 	'akinsho/toggleterm.nvim',
-	version = "*",
 	lazy = false,
-	cmd = {
-		"ToggleTerm",
-		"ToggleTermToggleAll",
-		"TermExec",
-		"TermNew",
-		"TermSelect",
-		"ToggleTermSetName",
-	},
 	config = function()
 		local term = require("toggleterm")
 		term.setup({
